@@ -156,7 +156,7 @@ else:
     st.plotly_chart(fig_bar, use_container_width=True)
 
     st.markdown("---")
-    with st.expander(" Researcher Administration"):
+    with st.expander("Researcher Administration"):
         pwd = st.text_input("Security Key:", type="password")
         if pwd == "PIA2026":
             if os.path.isfile('consensus_data.csv'):
@@ -166,7 +166,6 @@ else:
                 st.info("No data found.")
         elif pwd:
             st.error("Invalid Key.")
-
 
 st.markdown("---")
 with st.expander("Technical Appendix"):
