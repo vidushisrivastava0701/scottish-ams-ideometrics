@@ -46,7 +46,7 @@ interventions = [
     'Access Category Shift (AWaRe Framework)'
 ]
 
-st.title("CHNRI-Based AMS Prioritization Dashboard")
+st.title("CHNRI-Based AMS Prioritization Prototype")
 st.caption("Strategic Research Framework | CHNRI Methodology Implementation")
 
 # --- SURVEY PHASE ---
